@@ -3,7 +3,7 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace PortfolioBackend.Entities;
 
-public class WorkExperience
+public class EducationExperience
 {
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
