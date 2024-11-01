@@ -10,11 +10,10 @@ public class EducationExperience
     public string Id { get; set; } = string.Empty;
 
     [BsonElement("degree")]
-    public required string Degree { get; set; }
+    public string Degree { get; set; } = string.Empty;
 
     [BsonElement("university_name")]
-    public required string UniversityName { get; set; }
-
+    public string UniversityName { get; set; } = string.Empty;
 
     [BsonElement("GPA")]
     public int GPA { get; set; }

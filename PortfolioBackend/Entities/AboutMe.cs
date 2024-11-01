@@ -10,5 +10,5 @@ public class AboutMe
     public string Id { get; set; } = string.Empty;
 
     [BsonElement("description")]
-    public required string Description { get; set; }
+    public string Description { get; set; } = string.Empty;
 }
